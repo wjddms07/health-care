@@ -1,0 +1,76 @@
+/* styles.css */
+body {
+    background-image: url('https://images.unsplash.com/photo-1511994177846-d6d779f5c5c6'); /* 지브리 느낌의 배경 */
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.6); /* 어두운 배경으로 가독성 확보 */
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: #ffcc99;
+    font-family: 'Georgia', serif;
+}
+
+h3 {
+    color: #ffcc99;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+.calories {
+    font-size: 0.9em;
+    color: #142c5c;
+}
+
+button {
+    width: 100%;
+    font-size: 16px;
+    background-color: #59eec1;
+    color: #43d1db;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffa500;
+}
+
+#medHistory {
+    margin-top: 20px;
+}
+
+.list-group-item {
+    background-color: #85e015;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+input, select {
+    background-color: #8095ff;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+input::placeholder, select::placeholder {
+    color: #bbb;
+}
